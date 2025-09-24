@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+:root {
+  /*--primary-color: #03045e;
+  --primary-background: #07070a;
+  --primary-text: #3e78b2; */
+  --primary-background: #0b1d56;
+  --primary-border: #1c2541;
+  --primary-text: #a9f4e9;
+  --secondary-background: #333e5d;
+  --secondary-text: #84cbcb;
+  --tertiary-background: #3a506b;
+  --tertiary-text: #ffffff;
+  --error-text: #e62020;
+}
+
+input.primary,
+form.primary,
+div.primary,
+span.primary {
+  background-color: var(--primary-background);
+  color: var(--primary-text);
+}
+
+input.secondary,
+form.secondary,
+div.secondary,
+span.secondary {
+  background-color: var(--secondary-background);
+  color: var(--secondary-text);
+}
+
+input.tertiary,
+form.tertiary,
+div.tertiary,
+span.tertiary {
+  background-color: var(--tertiary-background);
+  color: var(--tertiary-text);
+}
+
+button.primary {
+  background-color: var(--primary-background);
+  color: var(--primary-text);
+}
+
+button.secondary{
+  background-color: var(--secondary-background);
+  color: var(--secondary-text);
+}
+
+button.tertiary {
+  background-color: var(--tertiary-background);
+  color: var(--tertiary-text);
+}
+
+label.primary, h1.primary, p.primary {
+  color: var(--primary-text);
+}
+
+label.secondary, h1.secondary, p.secondary {
+  color: var(--secondary-text);
+}
+
+label.tertiaty {
+  color: var(--tertiary-text);
+}
+
+label.primary-background {
+  color: var(--primary-text);
+  background-color: var(--primary-background);
+}
+
+label.secondary-background {
+  color: var(--secondary-text);
+  background-color: var(--secondary-background);
+}
+
+label.tertiary-background {
+  color: var(--tertiary-text);
+  background-color: var(--tertiary-background);
+}
+
+label.error {
+  color: var(--error-text);
+}

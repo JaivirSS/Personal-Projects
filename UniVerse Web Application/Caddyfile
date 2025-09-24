@@ -1,0 +1,14 @@
+#Frontend 
+universe.emard.co.uk { 
+        tls cert@emard.co.uk 
+        root * /srv/dist  
+        try_files {uri} index.html 
+        file_server 
+} 
+ 
+#Websocket and Backend 
+universe.api.emard.co.uk { 
+        tls cert@emard.co.uk 
+        reverse_proxy localhost:3000  
+} 
+
